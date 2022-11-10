@@ -187,7 +187,7 @@ input:invalid, textarea:invalid { background-color: #f0dddd; }
    Tables
    ========================================================================== */
 
-table { border: none; vertical-align: top;} /*border-collapse: collapse; border-spacing: 0; }
+table { border: none; vertical-align: text-top;} /*border-collapse: collapse; border-spacing: 0; }
 th, td {
     border-bottom: 1px solid #ddd;
 }*/
@@ -204,7 +204,7 @@ th, td {
 }
 
 table{
-	width: 100%;
+	width: 100%; vertical-align: text-top;
 }
 
 thead{
